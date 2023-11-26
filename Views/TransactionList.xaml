@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ControleFinanceiro.Views.TransactionList"
-             Title="TransactionList">
+<ContentPage
+    x:Class="ControleFinanceiro.Views.TransactionList"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="TransactionList">
     <VerticalStackLayout>
-        <Label 
+        <Label
+            HorizontalOptions="Center"
             Text="Transaction List"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            VerticalOptions="Center" />
 
         <Button Clicked="OnButtonClicked_To_TransactionAdd" Text="+" />
+        <Button Clicked="OnButtonClicked_To_TransactionEdit" Text="Edit" />
     </VerticalStackLayout>
 </ContentPage>
