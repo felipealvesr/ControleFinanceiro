@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControleFinanceiro.Views.TransactionAdd"
+             Title="TransactionAdd">
+    <VerticalStackLayout>
+    <Border BackgroundColor="#000000" Stroke="Transparent" Margin="15" Padding="10" StrokeShape="RoundRectangle 30">
+    <Grid RowDefinitions="Auto" ColumnDefinitions="*, 30">
+        <Label 
+            HorizontalOptions="Center" 
+            Text="Novo"
+            TextColor="#fff"
+            Grid.Row="0"
+            Grid.Column="0"/>
+
+        <Label HorizontalOptions="Center" 
+             Text="X"
+             TextColor="#fff"
+             Grid.Row="0"
+             Grid.Column="1"/> 
+    </Grid>
+    </Border>
+    </VerticalStackLayout>
+</ContentPage>
