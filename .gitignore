@@ -1,2 +1,7 @@
 */bin/
 */obj/
+*/vs/
+/vs
+/obj
+/bin
+/ControleFinanceiro.csproj.user
