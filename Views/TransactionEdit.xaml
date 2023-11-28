@@ -4,7 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="TransactionEdit">
-    <VerticalStackLayout Spacing="10">
+    <VerticalStackLayout Spacing="11">
         <Border
             Margin="15"
             Padding="10"
