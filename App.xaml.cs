@@ -4,11 +4,11 @@ namespace ControleFinanceiro
 {
     public partial class App : Application
     {
-        public App()
+        public App(TransactionList listPage)
         {
             InitializeComponent();
 
-            MainPage = new TransactionList();
+            MainPage = new NavigationPage(listPage);
         }
     }
 }
