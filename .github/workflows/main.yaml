@@ -19,7 +19,7 @@ jobs:
               run: |
                 dotnet workload install maui --ignore-failed-sources
             - name: Restore Dependencies
-              run: dotnet restore src/MauiBeach/MauiBeach.csproj
+              run: dotnet restore ControleFinanceiro.csproj
 
             - name: Build MAUI Windows
               run: msbuild src/MauiBeach/MauiBeach.csproj -r -p:Configuration=Release -p:RestorePackages=false -p:TargetFramework=net6.0-windows10.0.19041 /p:GenerateAppxPackageOnBuild=true
