@@ -7,7 +7,7 @@
     <VerticalStackLayout Spacing="10">
         <Border
             Margin="15"
-            Padding="10"
+            Padding="11"
             BackgroundColor="#000000"
             Stroke="Transparent"
             StrokeShape="RoundRectangle 30">
